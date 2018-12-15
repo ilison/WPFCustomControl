@@ -1,0 +1,27 @@
+﻿<Window x:Class="WpfApp1.Window1"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WpfApp1"
+        mc:Ignorable="d"
+        Title="Window1" Height="450" Width="800">
+    <Grid>
+        <local:Diagnol>
+            <Button BorderBrush="Black" Background="Red" Content="0" Width="40"></Button>
+            <Button BorderBrush="Black" Background="Red" Content="1" Width="40"></Button>
+
+            <Button BorderBrush="Black" Background="Red" Content="2" Width="40"></Button>
+            <Button BorderBrush="Black" Background="Red" Content="3" Width="40"></Button>
+
+            <Button BorderBrush="Black" Background="Red" Content="4" Width="40"></Button>
+
+            <Button BorderBrush="Black" Background="Red" Content="5" Width="40"></Button>
+
+            <Button BorderBrush="Black" Background="Red" Content="6" Width="40"></Button>
+            <Button BorderBrush="Black" Background="Red" Content="7" Width="40"></Button>
+
+            <Button BorderBrush="Black" Background="Red" Content="8" Width="40"></Button>
+        </local:Diagnol>
+    </Grid>
+</Window>

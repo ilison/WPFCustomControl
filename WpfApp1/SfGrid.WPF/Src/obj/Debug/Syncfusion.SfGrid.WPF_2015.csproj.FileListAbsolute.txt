@@ -1,0 +1,66 @@
+C:\Program Files (x86)\Syncfusion\Essential Studio\15.3.0.26\WPF\SfGrid.WPF\src\obj\Debug\Themes\Generic.baml
+C:\Program Files (x86)\Syncfusion\Essential Studio\15.3.0.26\WPF\SfGrid.WPF\src\obj\Debug\GeneratedInternalTypeHelper.g.cs
+C:\Program Files (x86)\Syncfusion\Essential Studio\15.3.0.26\WPF\SfGrid.WPF\src\obj\Debug\Syncfusion.SfGrid.WPF_MarkupCompile.cache
+C:\Program Files (x86)\Syncfusion\Essential Studio\15.3.0.26\WPF\SfGrid.WPF\src\obj\Debug\Syncfusion.SfGrid.WPF_MarkupCompile.lref
+C:\Program Files (x86)\Syncfusion\Essential Studio\15.3.0.26\WPF\SfGrid.WPF\Src\bin\Debug\Syncfusion.SfGrid.WPF.dll
+C:\Program Files (x86)\Syncfusion\Essential Studio\15.3.0.26\WPF\SfGrid.WPF\Src\bin\Debug\Syncfusion.SfGrid.WPF.pdb
+C:\Program Files (x86)\Syncfusion\Essential Studio\15.3.0.26\WPF\SfGrid.WPF\Src\bin\Debug\Syncfusion.Data.Wpf.dll
+C:\Program Files (x86)\Syncfusion\Essential Studio\15.3.0.26\WPF\SfGrid.WPF\Src\bin\Debug\Syncfusion.Shared.WPF.dll
+C:\Program Files (x86)\Syncfusion\Essential Studio\15.3.0.26\WPF\SfGrid.WPF\Src\bin\Debug\Syncfusion.Data.Wpf.pdb
+C:\Program Files (x86)\Syncfusion\Essential Studio\15.3.0.26\WPF\SfGrid.WPF\Src\bin\Debug\Syncfusion.Shared.WPF.pdb
+C:\Program Files (x86)\Syncfusion\Essential Studio\15.3.0.26\WPF\SfGrid.WPF\Src\obj\Debug\ColumnChooser\ColumnChooserWindow.g.cs
+C:\Program Files (x86)\Syncfusion\Essential Studio\15.3.0.26\WPF\SfGrid.WPF\Src\obj\Debug\ColumnChooser\ColumnChooserWindow.baml
+C:\Program Files (x86)\Syncfusion\Essential Studio\15.3.0.26\WPF\SfGrid.WPF\Src\obj\Debug\ColumnChooser\Themes\Generic.baml
+C:\Program Files (x86)\Syncfusion\Essential Studio\15.3.0.26\WPF\SfGrid.WPF\Src\obj\Debug\Control\DetailsView\Themes\Generic.baml
+C:\Program Files (x86)\Syncfusion\Essential Studio\15.3.0.26\WPF\SfGrid.WPF\Src\obj\Debug\BusyIndicator\Themes\Generic.baml
+C:\Program Files (x86)\Syncfusion\Essential Studio\15.3.0.26\WPF\SfGrid.WPF\Src\obj\Debug\Control\GroupDropArea\Themes\Generic.baml
+C:\Program Files (x86)\Syncfusion\Essential Studio\15.3.0.26\WPF\SfGrid.WPF\Src\obj\Debug\Control\Themes\Generic.baml
+C:\Program Files (x86)\Syncfusion\Essential Studio\15.3.0.26\WPF\SfGrid.WPF\Src\obj\Debug\DataPager\Themes\Generic.baml
+C:\Program Files (x86)\Syncfusion\Essential Studio\15.3.0.26\WPF\SfGrid.WPF\Src\obj\Debug\GridFiltering\Themes\AdvancedFilterControl.baml
+C:\Program Files (x86)\Syncfusion\Essential Studio\15.3.0.26\WPF\SfGrid.WPF\Src\obj\Debug\GridFiltering\Themes\Generic.baml
+C:\Program Files (x86)\Syncfusion\Essential Studio\15.3.0.26\WPF\SfGrid.WPF\Src\obj\Debug\GridCommon\Themes\Generic.baml
+C:\Program Files (x86)\Syncfusion\Essential Studio\15.3.0.26\WPF\SfGrid.WPF\Src\obj\Debug\GridFilterRow\Themes\Generic.baml
+C:\Program Files (x86)\Syncfusion\Essential Studio\15.3.0.26\WPF\SfGrid.WPF\Src\obj\Debug\MultiColumnDropDownControl\Themes\Generic.baml
+C:\Program Files (x86)\Syncfusion\Essential Studio\15.3.0.26\WPF\SfGrid.WPF\Src\obj\Debug\Print\Themes\Generic.baml
+C:\Program Files (x86)\Syncfusion\Essential Studio\15.3.0.26\WPF\SfGrid.WPF\Src\obj\Debug\SfTreeGrid\Themes\Generic.baml
+C:\Program Files (x86)\Syncfusion\Essential Studio\15.3.0.26\WPF\SfGrid.WPF\Src\obj\Debug\Styles\Styles.baml
+C:\Program Files (x86)\Syncfusion\Essential Studio\15.3.0.26\WPF\SfGrid.WPF\Src\obj\Debug\Syncfusion.SfGrid.WPF.g.resources
+C:\Program Files (x86)\Syncfusion\Essential Studio\15.3.0.26\WPF\SfGrid.WPF\Src\obj\Debug\Syncfusion.UI.Xaml.Grid.Resources.Syncfusion.SfGrid.Wpf.resources
+C:\Program Files (x86)\Syncfusion\Essential Studio\15.3.0.26\WPF\SfGrid.WPF\Src\obj\Debug\Syncfusion.SfGrid.WPF_2015.csproj.GenerateResource.cache
+C:\Program Files (x86)\Syncfusion\Essential Studio\15.3.0.26\WPF\SfGrid.WPF\Src\obj\Debug\Syncfusion.SfGrid.WPF_2015.csproj.CoreCompileInputs.cache
+C:\Program Files (x86)\Syncfusion\Essential Studio\15.3.0.26\WPF\SfGrid.WPF\Src\obj\Debug\Syncfusion.SfGrid.WPF_2015.csproj.CopyComplete
+C:\Program Files (x86)\Syncfusion\Essential Studio\15.3.0.26\WPF\SfGrid.WPF\Src\obj\Debug\Syncfusion.SfGrid.WPF.dll
+C:\Program Files (x86)\Syncfusion\Essential Studio\15.3.0.26\WPF\SfGrid.WPF\Src\obj\Debug\Syncfusion.SfGrid.WPF.pdb
+C:\Users\Administrator\Desktop\WpfApp1\SfGrid.WPF\Src\bin\Debug\Syncfusion.SfGrid.WPF.dll
+C:\Users\Administrator\Desktop\WpfApp1\SfGrid.WPF\Src\bin\Debug\Syncfusion.SfGrid.WPF.pdb
+C:\Users\Administrator\Desktop\WpfApp1\SfGrid.WPF\Src\bin\Debug\Syncfusion.Data.WPF.dll
+C:\Users\Administrator\Desktop\WpfApp1\SfGrid.WPF\Src\bin\Debug\Syncfusion.Shared.WPF.dll
+C:\Users\Administrator\Desktop\WpfApp1\SfGrid.WPF\Src\bin\Debug\Syncfusion.Data.WPF.pdb
+C:\Users\Administrator\Desktop\WpfApp1\SfGrid.WPF\Src\bin\Debug\Syncfusion.Shared.WPF.pdb
+C:\Users\Administrator\Desktop\WpfApp1\SfGrid.WPF\Src\obj\Debug\Themes\Generic.baml
+C:\Users\Administrator\Desktop\WpfApp1\SfGrid.WPF\Src\obj\Debug\ColumnChooser\ColumnChooserWindow.g.cs
+C:\Users\Administrator\Desktop\WpfApp1\SfGrid.WPF\Src\obj\Debug\GeneratedInternalTypeHelper.g.cs
+C:\Users\Administrator\Desktop\WpfApp1\SfGrid.WPF\Src\obj\Debug\Syncfusion.SfGrid.WPF_MarkupCompile.cache
+C:\Users\Administrator\Desktop\WpfApp1\SfGrid.WPF\Src\obj\Debug\Syncfusion.SfGrid.WPF_MarkupCompile.lref
+C:\Users\Administrator\Desktop\WpfApp1\SfGrid.WPF\Src\obj\Debug\ColumnChooser\ColumnChooserWindow.baml
+C:\Users\Administrator\Desktop\WpfApp1\SfGrid.WPF\Src\obj\Debug\ColumnChooser\Themes\Generic.baml
+C:\Users\Administrator\Desktop\WpfApp1\SfGrid.WPF\Src\obj\Debug\Control\DetailsView\Themes\Generic.baml
+C:\Users\Administrator\Desktop\WpfApp1\SfGrid.WPF\Src\obj\Debug\BusyIndicator\Themes\Generic.baml
+C:\Users\Administrator\Desktop\WpfApp1\SfGrid.WPF\Src\obj\Debug\Control\GroupDropArea\Themes\Generic.baml
+C:\Users\Administrator\Desktop\WpfApp1\SfGrid.WPF\Src\obj\Debug\Control\Themes\Generic.baml
+C:\Users\Administrator\Desktop\WpfApp1\SfGrid.WPF\Src\obj\Debug\DataPager\Themes\Generic.baml
+C:\Users\Administrator\Desktop\WpfApp1\SfGrid.WPF\Src\obj\Debug\GridFiltering\Themes\AdvancedFilterControl.baml
+C:\Users\Administrator\Desktop\WpfApp1\SfGrid.WPF\Src\obj\Debug\GridFiltering\Themes\Generic.baml
+C:\Users\Administrator\Desktop\WpfApp1\SfGrid.WPF\Src\obj\Debug\GridCommon\Themes\Generic.baml
+C:\Users\Administrator\Desktop\WpfApp1\SfGrid.WPF\Src\obj\Debug\GridFilterRow\Themes\Generic.baml
+C:\Users\Administrator\Desktop\WpfApp1\SfGrid.WPF\Src\obj\Debug\MultiColumnDropDownControl\Themes\Generic.baml
+C:\Users\Administrator\Desktop\WpfApp1\SfGrid.WPF\Src\obj\Debug\Print\Themes\Generic.baml
+C:\Users\Administrator\Desktop\WpfApp1\SfGrid.WPF\Src\obj\Debug\SfTreeGrid\Themes\Generic.baml
+C:\Users\Administrator\Desktop\WpfApp1\SfGrid.WPF\Src\obj\Debug\Styles\Styles.baml
+C:\Users\Administrator\Desktop\WpfApp1\SfGrid.WPF\Src\obj\Debug\Syncfusion.SfGrid.WPF.g.resources
+C:\Users\Administrator\Desktop\WpfApp1\SfGrid.WPF\Src\obj\Debug\Syncfusion.UI.Xaml.Grid.Resources.Syncfusion.SfGrid.Wpf.resources
+C:\Users\Administrator\Desktop\WpfApp1\SfGrid.WPF\Src\obj\Debug\Syncfusion.SfGrid.WPF_2015.csproj.GenerateResource.cache
+C:\Users\Administrator\Desktop\WpfApp1\SfGrid.WPF\Src\obj\Debug\Syncfusion.SfGrid.WPF_2015.csproj.CoreCompileInputs.cache
+C:\Users\Administrator\Desktop\WpfApp1\SfGrid.WPF\Src\obj\Debug\Syncfusion.SfGrid.WPF_2015.csproj.CopyComplete
+C:\Users\Administrator\Desktop\WpfApp1\SfGrid.WPF\Src\obj\Debug\Syncfusion.SfGrid.WPF.dll
+C:\Users\Administrator\Desktop\WpfApp1\SfGrid.WPF\Src\obj\Debug\Syncfusion.SfGrid.WPF.pdb

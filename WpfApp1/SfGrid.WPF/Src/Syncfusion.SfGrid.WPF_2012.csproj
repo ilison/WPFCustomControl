@@ -1,0 +1,464 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{B69DA0AB-B429-4897-827D-C9207594F898}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Syncfusion.UI.Xaml.Grid</RootNamespace>
+    <AssemblyName>Syncfusion.SfGrid.WPF</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <TargetFrameworkProfile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>TRACE;DEBUG;WPF;SyncfusionFramework4_5;</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup><PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+<DocumentationFile>Syncfusion.SfGrid.WPF.xml</DocumentationFile>
+<DocumentationFile>Syncfusion.SfGrid.WPF.xml</DocumentationFile>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE;WPF;SyncfusionFramework4_5;</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup><PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release-Xml|AnyCPU' ">
+<DocumentationFile>Syncfusion.SfGrid.WPF.xml</DocumentationFile>
+<DocumentationFile>Syncfusion.SfGrid.WPF.xml</DocumentationFile>
+    <OutputPath>bin\Release-XML\</OutputPath>
+    <DefineConstants>TRACE;WPF;SyncfusionFramework4_5;</DefineConstants>
+    <Optimize>true</Optimize>
+    <DebugType>pdbonly</DebugType>
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <ErrorReport>prompt</ErrorReport>
+    
+    
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Accessibility" />
+    <Reference Include="PresentationCore" />
+    <Reference Include="PresentationFramework" />
+    <Reference Include="PresentationFramework.Aero" />
+    <Reference Include="ReachFramework" />
+    <Reference Include="Syncfusion.Data.Wpf" />
+    <Reference Include="Syncfusion.Shared.WPF" />
+    <Reference Include="System" />
+    <Reference Include="System.ComponentModel.DataAnnotations" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Data.Linq" />
+    <Reference Include="System.Runtime.Serialization" />
+    <Reference Include="System.Xaml" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+    <Reference Include="UIAutomationClient" />
+    <Reference Include="UIAutomationProvider" />
+    <Reference Include="UIAutomationTypes" />
+    <Reference Include="WindowsBase" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="AssemblyInfo.cs" />
+    <Compile Include="AutomationPeers\GridStackedHeaderCellControlAutomationPeer.cs" />
+    <Compile Include="AutomationPeers\GridHeaderCellControlAutomationPeer.cs" />
+    <Compile Include="AutomationPeers\GridDetailsViewExpanderCellAutomationPeer.cs" />
+    <Compile Include="AutomationPeers\GroupDropAreaItemAutomationPeer.cs" />
+    <Compile Include="AutomationPeers\GroupDropAreaAutomationPeer.cs" />
+    <Compile Include="AutomationPeers\SfGridRowAutomationPeer.cs" />
+    <Compile Include="AutomationPeers\SfMultiColumnDropDownControlAutomationPeer.cs" />
+    <Compile Include="AutomationPeers\SfDataPagerAutomationPeer.cs" />
+    <Compile Include="AutomationPeers\SfDataGridAutomationPeer.cs" />
+    <Compile Include="AutomationPeers\SfGridCellAutomationPeer.cs" />
+    <Compile Include="Base\ColumnSizerBase.cs" />
+    <Compile Include="Base\GridColumnBase.cs" />
+    <Compile Include="Base\SfGridBase.cs" />
+    <Compile Include="BusyIndicator\BusyDecorator.cs" />
+    <Compile Include="ColumnChooser\ColumnChooserControl.cs" />
+    <Compile Include="ColumnChooser\ColumnChooserWindow.xaml.cs">
+      <DependentUpon>ColumnChooserWindow.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="ColumnChooser\Controller\GridColumnChooserController.cs" />
+    <Compile Include="Control\CellsControl\GridCell.cs" />
+    <Compile Include="Control\CellsControl\GridExpanderCellControl.cs" />
+    <Compile Include="Control\CellsControl\GridHeaderCellControl.cs" />
+    <Compile Include="Control\CellsControl\GridRowHeaderCell.cs" />
+    <Compile Include="Control\CellsControl\OrientedCellsPanel.cs" />
+    <Compile Include="Control\CellsControl\VirtualizingCellsControl.cs" />
+    <Compile Include="Control\DataGrid.cs" />
+    <Compile Include="Control\DetailsView\CloneHelper.cs" />
+    <Compile Include="Control\DetailsView\DetailsViewDataGrid.cs" />
+    <Compile Include="Control\DetailsView\DetailsViewDataRow.cs" />
+    <Compile Include="Control\DetailsView\DetailsViewGridManager.cs" />
+    <Compile Include="Control\DetailsView\DetailsViewDefinition.cs" />
+    <Compile Include="Control\DetailsView\DetailsViewEvents.cs" />
+    <Compile Include="Control\DetailsView\DetailsViewManager.cs" />
+    <Compile Include="Control\DetailsView\DetailsViewNotifyListener.cs" />
+    <Compile Include="Control\DetailsView\DetailsViewRowControl.cs" />
+    <Compile Include="Control\DetailsView\GridDetailsViewExpanderCellControl.cs" />
+    <Compile Include="Control\Generator\CoveredCellInfo.cs" />
+    <Compile Include="Control\Generator\CoveredCellInfoCollection.cs" />
+    <Compile Include="Control\Generator\DataColumn.cs" />
+    <Compile Include="Control\Generator\DataColumnBase.cs" />
+    <Compile Include="Control\Generator\DataRow.cs" />
+    <Compile Include="Control\Generator\DataRowBase.cs" />
+    <Compile Include="Control\Generator\RowGenerator.cs" />
+    <Compile Include="Control\Generator\SpannedDataColumn.cs" />
+    <Compile Include="Control\Generator\SpannedDataRow.cs" />
+    <Compile Include="Control\GroupDropArea\GroupDropArea.cs" />
+    <Compile Include="Control\GroupDropArea\GroupDropAreaItem.cs" />
+    <Compile Include="Control\GroupDropArea\PopupContentControl.cs" />
+    <Compile Include="Control\Helpers\AddNewRowEvents.cs" />
+    <Compile Include="Control\Helpers\AutoScrollerEvents.cs" />
+    <Compile Include="Control\Helpers\DependencyPropertyExtension .cs" />
+    <Compile Include="Control\Helpers\Enums.cs" />
+    <Compile Include="Control\Helpers\FocusManagerHelper.cs" />
+    <Compile Include="Control\Helpers\GridCollectionViewExtensions.cs" />
+    <Compile Include="Control\Helpers\GridColumnEvents.cs" />
+    <Compile Include="Control\Helpers\GridContextMenuHelper.cs" />
+    <Compile Include="Control\Helpers\GridCopyPasteEventArgs.cs" />
+    <Compile Include="Control\Helpers\GridCurrentCellEvents.cs" />
+    <Compile Include="Control\Helpers\GridDeletingEvents.cs" />
+    <Compile Include="Control\Helpers\GridEventArgs.cs" />
+    <Compile Include="Control\Helpers\GridFilteringEvents.cs" />
+    <Compile Include="Control\Helpers\GridGroupingEvents.cs" />
+    <Compile Include="Control\Helpers\GridHelper.cs" />
+    <Compile Include="Control\Helpers\GridIndexResolver.cs" />
+    <Compile Include="Control\Helpers\GridItemsSourceChangedEvent.cs" />
+    <Compile Include="Control\Helpers\GridResizingEvent.cs" />
+    <Compile Include="Control\Helpers\GridSelectionEvents.cs" />
+    <Compile Include="Control\Helpers\GridSortingEvents.cs" />
+    <Compile Include="Control\Helpers\IncrementalList.cs" />
+    <Compile Include="Control\Helpers\QueryColumnDraggingEventArgs.cs" />
+    <Compile Include="Control\Helpers\RowHeightManager.cs" />
+    <Compile Include="Control\Helpers\StackedHeadersHelper.cs" />
+    <Compile Include="Control\Helpers\TypeConverterHelper.cs" />
+    <Compile Include="Control\Helpers\UnboundEvents.cs" />
+    <Compile Include="Control\InteractionControllers\GridColumnDragDropController.cs" />
+    <Compile Include="Control\InteractionControllers\GridColumnResizingController.cs" />
+    <Compile Include="Control\Runtime\AutoScroller.cs" />
+    <Compile Include="Control\Runtime\DataValidation.cs" />
+    <Compile Include="Control\Runtime\GridAddNewRowController.cs" />
+    <Compile Include="Control\Runtime\GridCollectionViewWrapper.cs" />
+    <Compile Include="Control\Runtime\GridColumnAutoSizer.cs" />
+    <Compile Include="Control\Runtime\GridColumns.cs" />
+    <Compile Include="Control\Runtime\GridCutCopyPaste.cs" />
+    <Compile Include="Control\Runtime\GridDataGroupColumn.cs" />
+    <Compile Include="Control\Runtime\GridDataTopLevelGroup.cs" />
+    <Compile Include="Control\Runtime\GridItemPropertiesProvider.cs" />
+    <Compile Include="Control\Runtime\GridModel.cs" />
+    <Compile Include="Control\Runtime\GridSearchCellInfo.cs" />
+    <Compile Include="Control\Runtime\GridSummaryColumn.cs" />
+    <Compile Include="Control\Runtime\GridSummaryRow.cs" />
+    <Compile Include="Control\Runtime\GridUnBoundColumns.cs" />
+    <Compile Include="Control\Runtime\GridUnBoundDataRow.cs" />
+    <Compile Include="Control\Runtime\GridVirtualizingCollectionView.cs" />
+    <Compile Include="Control\Runtime\GroupColumnDescriptions.cs" />
+    <Compile Include="Control\Runtime\SearchHelper.cs" />
+    <Compile Include="Control\Runtime\SerializationHelper.cs" />
+    <Compile Include="Control\Runtime\SortColumnDescriptions.cs" />
+    <Compile Include="Control\Runtime\StackedHeader.cs" />
+    <Compile Include="Control\Runtime\ValidationHelper.cs" />
+    <Compile Include="Control\ScrollablePanel\IElement.cs" />
+    <Compile Include="Control\ScrollablePanel\IRowGenerator.cs" />
+    <Compile Include="Control\ScrollablePanel\VisualContainer.cs" />
+    <Compile Include="Control\SelectionController\GridBaseSelectionController.cs" />
+    <Compile Include="Control\SelectionController\GridCellInfo.cs" />
+    <Compile Include="Control\SelectionController\GridCellSelectionController.cs" />
+    <Compile Include="Control\SelectionController\GridCurrentCellManager.cs" />
+    <Compile Include="Control\SelectionController\GridSelectedCellsCollection.cs" />
+    <Compile Include="Control\SelectionController\GridSelectedRowsCollection.cs" />
+    <Compile Include="Control\SelectionController\GridSelectionController.cs" />
+    <Compile Include="Control\SelectionController\IGridSelectionController.cs" />
+    <Compile Include="Control\SelectionController\SelectionHelper.cs" />
+    <Compile Include="Converters\BoolToVisiblityConverter.cs" />
+    <Compile Include="DataPager\Controls\IScrollableElement.cs" />
+    <Compile Include="DataPager\Controls\NumericButton.cs" />
+    <Compile Include="DataPager\Controls\ScrollableElement.cs" />
+    <Compile Include="DataPager\Helper\Enums.cs" />
+    <Compile Include="DataPager\Helper\Events.cs" />
+    <Compile Include="DataPager\Helper\NotifyPropertyChangeHelper.cs" />
+    <Compile Include="DataPager\ItemGenerator\IItemGenerator.cs" />
+    <Compile Include="DataPager\ItemGenerator\ItemGenerator.cs" />
+    <Compile Include="DataPager\NavigationController\PageNavigationController.cs" />
+    <Compile Include="DataPager\ScrollablePanel\NumericButtonPanel.cs" />
+    <Compile Include="DataPager\SfDataPager.cs" />
+    <Compile Include="GridCellRenderer\GridCellCheckBoxRenderer.cs" />
+    <Compile Include="GridCellRenderer\GridCellComboBoxRenderer.cs" />
+    <Compile Include="GridCellRenderer\GridCellCurrencyRenderer.cs" />
+    <Compile Include="GridCellRenderer\GridCellDataTemplateRenderer.cs" />
+    <Compile Include="GridCellRenderer\GridCellDateTimeRenderer.cs" />
+    <Compile Include="GridCellRenderer\GridCellHyperlinkRenderer.cs" />
+    <Compile Include="GridCellRenderer\GridCellImageRenderer.cs" />
+    <Compile Include="GridCellRenderer\GridCellMaskRenderer.cs" />
+    <Compile Include="GridCellRenderer\GridCellMultiColumnDropDownRenderer.cs" />
+    <Compile Include="GridCellRenderer\GridCellNumericRenderer.cs" />
+    <Compile Include="GridCellRenderer\GridCellPercentageRenderer.cs" />
+    <Compile Include="GridCellRenderer\GridCellRendererBase.cs" />
+    <Compile Include="GridCellRenderer\GridCellRendererCollection.cs" />
+    <Compile Include="GridCellRenderer\GridCellTemplateRenderer.cs" />
+    <Compile Include="GridCellRenderer\GridCellTextBlockRenderer.cs" />
+    <Compile Include="GridCellRenderer\GridCellTextBoxRenderer.cs" />
+    <Compile Include="GridCellRenderer\GridCellTimeSpanRenderer.cs" />
+    <Compile Include="GridCellRenderer\GridCoveredCellRenderer.cs" />
+    <Compile Include="GridCellRenderer\GridDataHeaderCellRenderer.cs" />
+    <Compile Include="GridCellRenderer\GridDetailsViewExpanderCellRenderer.cs" />
+    <Compile Include="GridCellRenderer\GridRowHeaderCellRenderer.cs" />
+    <Compile Include="GridCellRenderer\GridTableSummaryCellRenderer.cs" />
+    <Compile Include="GridCellRenderer\GridUnBoundCellRenderer.cs" />
+    <Compile Include="GridCellRenderer\GridVirtualizingCellRenderer.cs" />
+    <Compile Include="GridCellRenderer\GridVirtualizingCellRendererBase.cs" />
+    <Compile Include="GridCellRenderer\IGridCellRenderer.cs" />
+    <Compile Include="GridCellRenderer\VirtualizingCellUIElementBin.cs" />
+    <Compile Include="GridCommon\Collections\ComponentModel\Disposable.cs" />
+    <Compile Include="GridCommon\Collections\ComponentModel\IDisposedEvent.cs" />
+    <Compile Include="GridCommon\Collections\ComponentModel\ISupportInitialize.cs" />
+    <Compile Include="GridCommon\Collections\GenericTreeTable.cs" />
+    <Compile Include="GridCommon\Collections\GenericTreeTableWithCounter.cs" />
+    <Compile Include="GridCommon\Collections\GenericTreeTableWithSummary.cs" />
+    <Compile Include="GridCommon\Collections\TreeTable.cs" />
+    <Compile Include="GridCommon\Collections\TreeTableWithCounter.cs" />
+    <Compile Include="GridCommon\Collections\TreeTableWithSummary.cs" />
+    <Compile Include="GridCommon\ScrollableContentViewer\IScrollableInfo.cs" />
+    <Compile Include="GridCommon\ScrollableContentViewer\PanningInfo.cs" />
+    <Compile Include="GridCommon\ScrollableContentViewer\ScrollableContentPresenter.cs" />
+    <Compile Include="GridCommon\ScrollableContentViewer\ScrollableContentViewer.cs" />
+    <Compile Include="GridCommon\ScrollAxis\DistanceCounterCollection.cs" />
+    <Compile Include="GridCommon\ScrollAxis\DistanceCounterSubset.cs" />
+    <Compile Include="GridCommon\ScrollAxis\DistanceRangeCounterCollection.cs" />
+    <Compile Include="GridCommon\ScrollAxis\IDistanceCounterCollection.cs" />
+    <Compile Include="GridCommon\ScrollAxis\IEditableLineSizeHost.cs" />
+    <Compile Include="GridCommon\ScrollAxis\ILineSizeHost.cs" />
+    <Compile Include="GridCommon\ScrollAxis\IScrollBar.cs" />
+    <Compile Include="GridCommon\ScrollAxis\LineScrollAxis.cs" />
+    <Compile Include="GridCommon\ScrollAxis\LineSizeCollection.cs" />
+    <Compile Include="GridCommon\ScrollAxis\PixelScrollAxis.cs" />
+    <Compile Include="GridCommon\ScrollAxis\RangeChangedEvent.cs" />
+    <Compile Include="GridCommon\ScrollAxis\RowColumnIndex.cs" />
+    <Compile Include="GridCommon\ScrollAxis\ScrollAxisBase.cs" />
+    <Compile Include="GridCommon\ScrollAxis\ScrollAxisRegion.cs" />
+    <Compile Include="GridCommon\ScrollAxis\ScrollInfo.cs" />
+    <Compile Include="GridCommon\ScrollAxis\SortedRangeValueList.cs" />
+    <Compile Include="GridCommon\ScrollAxis\VisibleLineInfo.cs" />
+    <Compile Include="GridFiltering\AdvancedFilterControl.cs" />
+    <Compile Include="GridFiltering\CheckBoxFilterControl.cs" />
+    <Compile Include="GridFiltering\Converters\Converters.cs" />
+    <Compile Include="GridFiltering\GridFilterControl.cs" />
+    <Compile Include="GridFiltering\Helpers\GridExcelLikeFilterEvents.cs" />
+    <Compile Include="GridFiltering\Model\ExcelLikeFilterModel.cs" />
+    <Compile Include="GridFilterRow\FilterRow.cs" />
+    <Compile Include="GridFilterRow\GridFilterRowCell.cs" />
+    <Compile Include="GridFilterRow\Helpers\Helpers.cs" />
+    <Compile Include="GridFilterRow\Helpers\FilterRowModel.cs" />
+    <Compile Include="GridFilterRow\Renderers\GridFilterRowCheckBoxRenderer.cs" />
+    <Compile Include="GridFilterRow\Renderers\GridFilterRowComboBoxRenderer.cs" />
+    <Compile Include="GridFilterRow\Renderers\GridFilterRowComboBoxRendererBase.cs" />
+    <Compile Include="GridFilterRow\Renderers\GridFilterRowDateTimeRenderer.cs" />
+    <Compile Include="GridFilterRow\Renderers\GridFilterRowMultiSelectRenderer.cs" />
+    <Compile Include="GridFilterRow\Renderers\GridFilterRowNumericRenderer.cs" />
+    <Compile Include="GridFilterRow\Renderers\GridFilterRowRendererBase.cs" />
+    <Compile Include="GridFilterRow\Renderers\GridFilterRowTextBoxRenderer.cs" />
+    <Compile Include="GridFilterRow\Renderers\IGridFilterRowRenderer.cs" />
+    <Compile Include="Helpers\BusyIndicatorHelper.cs" />
+    <Compile Include="MultiColumnDropDownControl\SfMultiColumnDropDownControl.cs" />
+    <Compile Include="Print\Converters\Converters.cs" />
+    <Compile Include="Print\GridPrintPreviewControl.cs" />
+    <Compile Include="Print\PrintGridCell.cs" />
+    <Compile Include="Print\PrintManagerBase.cs" />
+    <Compile Include="Print\PrintOptionsControl.cs" />
+    <Compile Include="Print\PrintPageControl.cs" />
+    <Compile Include="Print\PrintPagePanel.cs" />
+    <Compile Include="Print\PrintPreviewAreaControl.cs" />
+    <Compile Include="Print\PrintPreviewPanel.cs" />
+    <Compile Include="Print\PrintSettings.cs" />
+    <Compile Include="Resources\GridResourceWrapper.cs" />
+    <Compile Include="Resources\SR.cs" />
+    <Compile Include="Resources\Syncfusion.SfGrid.Wpf.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Syncfusion.SfGrid.Wpf.resx</DependentUpon>
+    </Compile>
+    <Compile Include="SfTreeGrid\CellsControl\TreeGridCell.cs" />
+    <Compile Include="SfTreeGrid\CellsControl\TreeGridExpander.cs" />
+    <Compile Include="SfTreeGrid\CellsControl\TreeGridExpanderCell.cs" />
+    <Compile Include="SfTreeGrid\CellsControl\TreeGridHeaderCell.cs" />
+    <Compile Include="SfTreeGrid\CellsControl\TreeGridRowControl.cs" />
+    <Compile Include="SfTreeGrid\CellsControl\TreeGridRowHeaderCell.cs" />
+    <Compile Include="SfTreeGrid\CellsControl\TreeGridRowPanel.cs" />
+    <Compile Include="SfTreeGrid\Control\Events.cs" />
+    <Compile Include="SfTreeGrid\Control\SfTreeGrid.cs" />
+    <Compile Include="SfTreeGrid\Control\TreeGridColumns.cs" />
+    <Compile Include="SfTreeGrid\Control\TreeGridModel.cs" />
+    <Compile Include="SfTreeGrid\Generator\TreeDataColumn.cs" />
+    <Compile Include="SfTreeGrid\Generator\TreeDataColumnBase.cs" />
+    <Compile Include="SfTreeGrid\Generator\TreeDataRow.cs" />
+    <Compile Include="SfTreeGrid\Generator\TreeDataRowBase.cs" />
+    <Compile Include="SfTreeGrid\Generator\TreeGridRowGenerator.cs" />
+    <Compile Include="SfTreeGrid\Helpers\ContextMenuHelper.cs" />
+    <Compile Include="SfTreeGrid\Helpers\Enums.cs" />
+    <Compile Include="SfTreeGrid\Helpers\TreeGridColumnEvent.cs" />
+    <Compile Include="SfTreeGrid\Helpers\TreeGridCopyPasteEventArgs.cs" />
+    <Compile Include="SfTreeGrid\Helpers\TreeGridCurrentCellEvents.cs" />
+    <Compile Include="SfTreeGrid\Helpers\TreeGridHelper.cs" />
+    <Compile Include="SfTreeGrid\Helpers\TreeGridIndexResolver.cs" />
+    <Compile Include="SfTreeGrid\Helpers\TreeGridSelectionHelper.cs" />
+    <Compile Include="SfTreeGrid\Helpers\TreeQueryColumnDraggingEventArgs.cs" />
+    <Compile Include="SfTreeGrid\InteractionControllers\TreeGridColumnDragDropController.cs" />
+    <Compile Include="SfTreeGrid\InteractionControllers\TreeGridColumnResizingController.cs" />
+    <Compile Include="SfTreeGrid\Runtime\TreeGridAutoScroller.cs" />
+    <Compile Include="SfTreeGrid\Runtime\TreeGridColumnAutoSizer.cs" />
+    <Compile Include="SfTreeGrid\Runtime\TreeGridCutCopyPaste.cs" />
+    <Compile Include="SfTreeGrid\Runtime\TreeGridDataValidation.cs" />
+    <Compile Include="SfTreeGrid\Runtime\TreeGridValidationHelper.cs" />
+    <Compile Include="SfTreeGrid\ScrollablePanel\IElement.cs" />
+    <Compile Include="SfTreeGrid\ScrollablePanel\ITreeGridRowGenerator.cs" />
+    <Compile Include="SfTreeGrid\ScrollablePanel\TreeGridPanel.cs" />
+    <Compile Include="SfTreeGrid\SelectionController\CheckBoxRowSelectionController.cs" />
+    <Compile Include="SfTreeGrid\SelectionController\ITreeGridSelectionController.cs" />
+    <Compile Include="SfTreeGrid\SelectionController\NodeCheckBoxController.cs" />
+    <Compile Include="SfTreeGrid\SelectionController\TreeGridBaseSelectionController.cs" />
+    <Compile Include="SfTreeGrid\SelectionController\TreeGridCurrentCellManager.cs" />
+    <Compile Include="SfTreeGrid\SelectionController\TreeGridRowSelectionController.cs" />
+    <Compile Include="SfTreeGrid\SelectionController\TreeGridSelectedRowsCollection.cs" />
+    <Compile Include="SfTreeGrid\TreeGridCellRenderer\ITreeGridCellRenderer.cs" />
+    <Compile Include="SfTreeGrid\TreeGridCellRenderer\TreeGridCellCheckBoxRenderer.cs" />
+    <Compile Include="SfTreeGrid\TreeGridCellRenderer\TreeGridCellComboBoxRenderer.cs" />
+    <Compile Include="SfTreeGrid\TreeGridCellRenderer\TreeGridCellCurrencyRenderer.cs" />
+    <Compile Include="SfTreeGrid\TreeGridCellRenderer\TreeGridCellDateTimeRenderer.cs" />
+    <Compile Include="SfTreeGrid\TreeGridCellRenderer\TreeGridCellHyperlinkRenderer.cs" />
+    <Compile Include="SfTreeGrid\TreeGridCellRenderer\TreeGridCellMaskRenderer.cs" />
+    <Compile Include="SfTreeGrid\TreeGridCellRenderer\TreeGridCellNumericRenderer.cs" />
+    <Compile Include="SfTreeGrid\TreeGridCellRenderer\TreeGridCellPercentageRenderer.cs" />
+    <Compile Include="SfTreeGrid\TreeGridCellRenderer\TreeGridCellRendererBase.cs" />
+    <Compile Include="SfTreeGrid\TreeGridCellRenderer\TreeGridCellRendererCollection.cs" />
+    <Compile Include="SfTreeGrid\TreeGridCellRenderer\TreeGridCellTemplateRenderer.cs" />
+    <Compile Include="SfTreeGrid\TreeGridCellRenderer\TreeGridCellTextBlockRenderer.cs" />
+    <Compile Include="SfTreeGrid\TreeGridCellRenderer\TreeGridCellTextBoxRenderer.cs" />
+    <Compile Include="SfTreeGrid\TreeGridCellRenderer\TreeGridHeaderCellRenderer.cs" />
+    <Compile Include="SfTreeGrid\TreeGridCellRenderer\TreeGridRowHeaderCellRenderer.cs" />
+    <Compile Include="SfTreeGrid\TreeGridCellRenderer\TreeGridVirtualizingCellRenderer.cs" />
+    <Compile Include="SfTreeGrid\TreeGridCellRenderer\TreeGridVirtualizingCellRendererBase.cs" />
+    <Compile Include="SfTreeGrid\TreeGridCellRenderer\TreeGridVirtualizingCellUIElementBin.cs" />
+    <Compile Include="SfTreeGrid\TreeGridView\TreeGridPropertiesProvider.cs" />
+    <Compile Include="SfTreeGrid\TreeGridView\TreeGridQueryableView.cs" />
+    <Compile Include="SfTreeGrid\TreeGridView\TreeGridSelfRelationalView.cs" />
+    <Compile Include="SfTreeGrid\TreeGridView\TreeGridUnboundView.cs" />
+    <Compile Include="SfTreeGrid\TreeGridView\TreeGridView.cs" />
+    <Compile Include="SfTreeGrid\TreeGridView\TreeNode.cs" />
+    <Compile Include="SfTreeGrid\TreeGridView\TreeNodeCollection.cs" />
+    <Compile Include="SfTreeGrid\TreeGridView\TreeNodeComaparer.cs" />
+    <Compile Include="SfTreeGrid\TreeGridView\TreeNodeEnumerator .cs" />
+    <Compile Include="SfTreeGrid\TreeGridView\TreeNodes.cs" />
+    <Compile Include="Utility\BaseCommand.cs" />
+    <Compile Include="Utility\BindingUtility.cs" />
+    <Compile Include="Utility\DoubleSpan.cs" />
+    <Compile Include="Utility\DoubleUtil.cs" />
+    <Compile Include="Utility\GridUtil.cs" />
+    <Compile Include="Utility\Hashtable.cs" />
+    <Compile Include="Utility\Int32Span.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Page Include="ColumnChooser\ColumnChooserWindow.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="ColumnChooser\Themes\Generic.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Control\DetailsView\Themes\Generic.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="BusyIndicator\Themes\Generic.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Control\GroupDropArea\Themes\Generic.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Control\Themes\Generic.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="DataPager\Themes\Generic.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="GridFiltering\Themes\AdvancedFilterControl.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="GridFiltering\Themes\Generic.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="GridCommon\Themes\Generic.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="GridFilterRow\Themes\Generic.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="MultiColumnDropDownControl\Themes\Generic.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Print\Themes\Generic.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="SfTreeGrid\Themes\Generic.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Styles\Styles.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Themes\Generic.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Properties\" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Resources\Syncfusion.SfGrid.Wpf.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Syncfusion.SfGrid.Wpf.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Syncfusion.UI.Xaml.Grid\SfDataGrid.Icon.png" />
+    <EmbeddedResource Include="Syncfusion.UI.Xaml.Controls.DataPager\SfDataPager.Icon.png" />
+    <EmbeddedResource Include="Syncfusion.UI.Xaml.Grid\SfMultiColumnDropDownControl.Icon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Syncfusion.UI.Xaml.TreeGrid\SfTreeGrid.Icon.png" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <PropertyGroup>
+  <PreBuildEvent></PreBuildEvent>
+  </PropertyGroup>
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
